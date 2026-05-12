@@ -1,0 +1,11 @@
+.card {
+    border: 2px solid purple;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lightgray;
+    color: rgb(71, 71, 71);
+}
+
+.titulo {
+    color: purple;
+}
