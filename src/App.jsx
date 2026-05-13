@@ -50,9 +50,9 @@ function App() {
           </div>
         ))}
       </div>
-      <Button titulo="Entrar" mensagem="Entrando no aplicativo"/>
+      <Button titulo="Entrar" mensagem="Entrando no aplicativo" desabilitado={true}/>
       <Button titulo="Sair" mensagem="Saindo do aplicativo"/>
-      <Button titulo="Limpar" mensagem="Limpando os campos"/>
+      <Button titulo="Limpar" mensagem="Limpando os campos" desabilitado={true}/>
       <div className="cards">
           <Card titulo="Dinossauros" descricao="Rawr"/>
           <Card titulo="Centopeias" descricao="Não sei"/>
